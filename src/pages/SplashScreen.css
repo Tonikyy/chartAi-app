@@ -1,0 +1,15 @@
+.SplashScreen {
+    width: 390px;
+    height: 844px;
+    position: relative;
+    background: url('../images/splashscreen.png') no-repeat center center fixed;
+    background-size: cover;
+    /* Add any other styles you need for the SplashScreen class */
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff') format('woff'); /* Update the path */
+    font-weight: normal;
+    font-style: normal;
+  }
