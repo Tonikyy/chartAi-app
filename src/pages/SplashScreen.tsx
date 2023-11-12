@@ -2,6 +2,7 @@
 import React from 'react';
 import './SplashScreen.css';
 import { useHistory } from 'react-router';
+import { IonButton } from '@ionic/react';
 
 const SplashScreen: React.FC = () => {
   const history = useHistory();
@@ -17,7 +18,7 @@ return (
       
       <div className="splashbtn">
         {/* ... */}
-        <button
+        <IonButton
   className="splashbtn"
   style={{
     width: 303,
@@ -36,7 +37,7 @@ return (
   onClick={() => handleButtonClick()}
 >
   Get started
-</button>
+</IonButton>
       </div> 
     </div>
   );

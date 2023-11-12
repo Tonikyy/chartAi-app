@@ -13,3 +13,24 @@
     font-weight: normal;
     font-style: normal;
   }
+
+  ion-button {
+    --background: #C8FCEA;
+    --background-hover: #658378;
+    --background-activated: #C8FCEA;
+    --background-focused: #C8FCEA;
+  
+    --color: #C8FCEA;
+  
+    --border-radius: 10px;
+    --border-color: #bddfd3;
+    --border-style: solid;
+    --border-width: 1px;
+  
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+  
+ 
+  
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+  }
