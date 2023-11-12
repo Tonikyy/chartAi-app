@@ -1,0 +1,7 @@
+{
+  "name": "chartAi-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
