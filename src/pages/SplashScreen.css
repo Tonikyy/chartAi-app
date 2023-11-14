@@ -1,16 +1,18 @@
-.SplashScreen {
-    width: 390px;
-    height: 844px;
-    position: relative;
+
+  .taustasplash {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: url('../images/splashscreen.png') no-repeat center center fixed;
     background-size: cover;
-    /* Add any other styles you need for the SplashScreen class */
   }
-
   @font-face {
     font-family: 'Poppins';
     src: url('../fonts/Poppins-Regular.woff') format('woff'); /* Update the path */
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
   }
 
@@ -29,8 +31,25 @@
   
     --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
   
- 
-  
+    --font-family: 'Poppins', sans-serif; /* Use the correct font-family name */
+    --font-weight: 500; /* Adjust the font weight as needed */
     --padding-top: 10px;
     --padding-bottom: 10px;
+  
+  }
+
+  .sisalto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .splashbtn {
+    width: 200%;
+    height: 50px;
+    margin-bottom: auto;
+    margin-top: 400%;
+    margin-left: 50%;
+    margin-right: 50%;
+    position: relative;
   }

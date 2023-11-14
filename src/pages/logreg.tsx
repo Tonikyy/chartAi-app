@@ -1,12 +1,35 @@
-// src/pages/LogReg.tsx
 import React from 'react';
-import { useHistory } from 'react-router';
+import './logreg.css';
+import { useHistory } from 'react-router-dom';
+import { IonBackButton, IonButton } from '@ionic/react';
 
 const LogReg: React.FC = () => {
+  const history = useHistory();
+
+  const handleLoginClick = () => {
+    console.log('Login button clicked');
+    // Navigoi login sivulle
+    history.push('/login');
+  };
+
+  const handleRegisterClick = () => {
+    console.log('Register button clicked');
+    // Navigoi register sivulle
+    history.push('/register');
+  };
+
   return (
-    <div>
-      <h1>Login/Register Page</h1>
-      {/* Add your login/register content here */}
+    <div className="tausta">
+      <div className="sisalto">
+            <IonBackButton className='takaisin' defaultHref="/splashscreen"/>
+        <IonButton className="logregbtn1" onClick={handleLoginClick}>
+         <b> Login </b>
+        </IonButton>
+        <br/>
+        <IonButton className="logregbtn2" onClick={handleRegisterClick}>
+          <b> Register </b>
+        </IonButton>
+      </div>
     </div>
   );
 };

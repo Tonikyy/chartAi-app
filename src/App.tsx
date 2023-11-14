@@ -1,9 +1,10 @@
 import { Redirect, Route } from 'react-router-dom';
 import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import Home from './pages/Home';
 import SplashScreen from './pages/SplashScreen';
 import LogReg from './pages/logreg';
+import login from './pages/login';
+import register from './pages/register';
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
 
@@ -33,6 +34,8 @@ const App: React.FC = () => (
       <IonRouterOutlet>
         <Route path="/splash" component={SplashScreen} exact />
         <Route path="/logreg"  component={LogReg} exact />
+        <Route path="/login" component={login} />
+        <Route path="/register" component={register} />
         {/* Add other routes here */}
         <Redirect exact from="/" to="/splash" />
       </IonRouterOutlet>
