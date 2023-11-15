@@ -8,22 +8,22 @@ const LogReg: React.FC = () => {
 
   const handleLoginClick = () => {
     console.log('Login button clicked');
-    // Navigoi login sivulle
+    // Navigate to the login page
     history.push('/login');
   };
 
   const handleRegisterClick = () => {
     console.log('Register button clicked');
-    // Navigoi register sivulle
+    // Navigate to the register page
     history.push('/register');
   };
 
   return (
     <div className="tausta">
       <div className="sisalto">
-            <IonBackButton className='takaisin' defaultHref="/splashscreen"/>
+        <IonBackButton className='takaisin' defaultHref="/splashscreen" />
         <IonButton className="logregbtn1" onClick={handleLoginClick}>
-         <b> Login </b>
+          <b> Login </b>
         </IonButton>
         <br/>
         <IonButton className="logregbtn2" onClick={handleRegisterClick}>

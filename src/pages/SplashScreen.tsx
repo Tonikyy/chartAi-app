@@ -13,7 +13,8 @@ const SplashScreen: React.FC = () => {
     history.push('/logreg'); 
     // Update '/my-page' with the actual path of your specific page
   };
-return (
+
+  return (
     <div className="taustasplash">
       {/* Your existing content */}
       
@@ -28,3 +29,4 @@ return (
 };
 
 export default SplashScreen;
+
