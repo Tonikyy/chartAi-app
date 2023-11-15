@@ -5,8 +5,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('./src/images/lgnreg.png') no-repeat center center fixed;
   background-size: cover;
+  position: relative; 
+  background: radial-gradient(21.28% 26.30% at 20.25% 19.54%, #d6d6d6 0%, rgba(238, 238, 238, 0.72) 100%);
 }
 
 .sisalto {

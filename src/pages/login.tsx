@@ -1,7 +1,8 @@
 // LoginPage.tsx
 import React, { useState } from 'react';
-import { IonInput, IonButton } from '@ionic/react';
+import { IonInput, IonButton, IonBackButton, IonImg } from '@ionic/react';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+import './styles/login.css'
 
 const Login: React.FC = () => {
   const [email, setEmail] = useState('');
@@ -23,11 +24,17 @@ const Login: React.FC = () => {
   };
 
   return (
-    <div>
-      <h1>Login Page</h1>
-      <IonInput type="email" placeholder="Email" value={email} onIonChange={(e) => setEmail(e.detail.value!)} />
-      <IonInput type="password" placeholder="Password" value={password} onIonChange={(e) => setPassword(e.detail.value!)} />
-      <IonButton onClick={handleLogin}>Login</IonButton>
+    <div className='tausta'>
+      <div className='sisalto'>
+      <IonBackButton className='takaisin' defaultHref="/logreg"/>
+      <div className="loginTxt">Login</div>
+      <img className="loginKuva" src="./src/images/logKuva.png" />
+      
+      <IonInput className='input' type="email" placeholder="  Email" value={email} onIonChange={(e) => setEmail(e.detail.value!)} />
+      <IonInput className='input' type="password" placeholder="  Password" value={password} onIonChange={(e) => setPassword(e.detail.value!)} />
+      <IonButton className='logiNappi' onClick={handleLogin}>Login</IonButton>
+        
+      </div>
     </div>
   );
 };
