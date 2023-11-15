@@ -1,6 +1,6 @@
 // src/pages/SplashScreen.tsx
 import React from 'react';
-import './SplashScreen.css';
+import './styles/SplashScreen.css';
 import { useHistory } from 'react-router';
 import { IonButton } from '@ionic/react';
 

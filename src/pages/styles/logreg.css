@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('../images/lgnreg.png') no-repeat center center fixed;
+  background: url('./src/images/lgnreg.png') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -34,7 +34,7 @@
 
 @font-face {
   font-family: 'Poppins';
-  src: url('../fonts/Poppins-Regular.woff') format('woff'); /* Update the path */
+  src: url('./src/fonts/Poppins-Regular.woff') format('woff'); /* Update the path */
   font-weight: normal;
   font-style: normal;
 }

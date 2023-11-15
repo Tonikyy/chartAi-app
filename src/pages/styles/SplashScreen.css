@@ -6,12 +6,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('../images/splashscreen.png') no-repeat center center fixed;
+    background: url('./src/images/splashscreen.png') no-repeat center center fixed;
     background-size: cover;
   }
   @font-face {
     font-family: 'Poppins';
-    src: url('../fonts/Poppins-Regular.woff') format('woff'); /* Update the path */
+    src: url('./src/fonts/Poppins-Regular.woff') format('woff'); /* Update the path */
     font-weight: 500;
     font-style: normal;
   }
@@ -22,7 +22,7 @@
     --background-activated: #C8FCEA;
     --background-focused: #C8FCEA;
   
-    --color: #C8FCEA;
+    --color: #000000;
   
     --border-radius: 10px;
     --border-color: #bddfd3;
