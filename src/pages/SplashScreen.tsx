@@ -15,16 +15,17 @@ const SplashScreen: React.FC = () => {
   };
 
   return (
-    <div className="taustasplash">
-      {/* Your existing content */}
-      
-      <div className="sisalto">
+
+      <div className="tausta">
         {/* ... */}
-        <IonButton className="splashbtn" onClick={() => handleButtonClick()}>
+        <h1 id='splashTxtFirst'>Welcome aboard!</h1>
+        <img id="splashKuva" src="./src/images/splash.png" />
+        <h3 id='splashTxtSecond'>Navigate the waters like a pro with our spot revealing AI </h3>
+        <IonButton id='splashNappi' onClick={() => handleButtonClick()}>
           <b>Get started</b>
         </IonButton>
       </div> 
-    </div>
+    
   );
 };
 

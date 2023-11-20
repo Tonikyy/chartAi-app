@@ -17,8 +17,8 @@ const Login: React.FC = () => {
       const user = userCredential.user;
       console.log('Logged in user:', user);
       // Redirect or perform any action upon successful login
-    } catch (error) {
-      console.error('Login failed:', error.message);
+    } catch (err: any) {
+      console.error('Login failed:', err.message);
       // Handle login failure (e.g., display error message)
     }
   };
@@ -32,7 +32,7 @@ const Login: React.FC = () => {
       
         <IonInput className='input' type="email" placeholder="  Email" value={email} onIonChange={(e) => setEmail(e.detail.value!)} />
         <IonInput className='input' type="password" placeholder="  Password" value={password} onIonChange={(e) => setPassword(e.detail.value!)} />
-        <IonButton className='logiNappi' onClick={handleLogin}>Login</IonButton>
+        <IonButton id='logiNappi' onClick={handleLogin}>Login</IonButton>
       </div>
     </div>
   );

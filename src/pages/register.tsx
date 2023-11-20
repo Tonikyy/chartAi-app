@@ -57,7 +57,7 @@ import './styles/register.css';
         <IonInput className='input' type="password" placeholder="Password" value={password} onIonChange={(e) => setPassword(e.detail.value!)}/>
         <IonInput className='input' type="text" placeholder="Full Name" value={fullName} onIonChange={(e) => setFullName(e.detail.value!)}/>
        
-        <label htmlFor="tiedostoLataus" className="fileInputLabel">
+        <label htmlFor="tiedostoLataus" id="fileInputLabel">
           Upload Profile Picture
         </label>
         <input id='tiedostoLataus' type="file" accept="image/*" onChange={handleFileChange} />

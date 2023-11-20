@@ -15,24 +15,24 @@
     --background-focused: #c8fcea00; 
   }
   
-  /* Ion Button */
-  ion-button {
-    --background: #C8FCEA;
-    --background-hover: #658378;
-    --background-activated: #C8FCEA;
-    --background-focused: #C8FCEA;
-    --color: #000000;
-    --border-radius: 10px;
-    --border-color: #bddfd3;
-    --border-style: solid;
-    --border-width: 1px;
-    --box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.25);
-    --font-family: 'Poppins', sans-serif; /* Use the correct font-family name */
-    --font-weight: 500; /* Adjust the font weight as needed */
-    --padding-top: 10px;
-    --padding-bottom: 10px;
-    width: 80%;
-  }
+ /* Ion Button */
+ion-button {
+  --background: #C8FCEA;
+  --background-hover: #658378;
+  --background-activated: #C8FCEA;
+  --background-focused: #C8FCEA;
+  --color: #000000;
+  --border-radius: 10px;
+  --border-color: #bddfd3;
+  --border-style: solid;
+  --border-width: 1px;
+  --box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.25);
+  --font-family: 'Poppins', sans-serif; /* Use the correct font-family name */
+  --font-weight: 500; /* Adjust the font weight as needed */
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+  width: 80%;
+}
   
   /* Classes */
   .takaisin {
@@ -70,6 +70,7 @@
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
+    text-shadow: 1px 1px 6px rgba(0,0,0,0.50);
   }
   
   /* Login Image */
@@ -105,11 +106,12 @@
     height: 100%;
     margin-top: 4%;
     width: 110px;
-    color: rgb(255, 255, 255);
-    border-radius: 5px;
+    color: rgb(0, 0, 0);
   }
   
-  .fileInputLabel {
+  #fileInputLabel {
     margin-left: 0%;
-    padding-top: 8px;
+    padding-top: 15px;
+    text-shadow: 1px 1px 6px rgba(0,0,0,0.50);
+    color: #000000;
   }
