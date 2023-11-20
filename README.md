@@ -13,7 +13,7 @@ chartAi-app is a personal project designed to assist users in discovering suitab
 
 ## UI progress so far
 
-![image](https://github.com/Tonikyy/chartAi-app/assets/72816084/677e6580-209b-4271-8da0-35c45a68156f)
+![image](https://github.com/Tonikyy/chartAi-app/assets/72816084/32c2f966-c7ac-45f3-a2b0-6679f25bc149)
 
 ![image](https://github.com/Tonikyy/chartAi-app/assets/72816084/5a6002f4-2095-4d36-9293-b7d4e5f6a63e)
 
