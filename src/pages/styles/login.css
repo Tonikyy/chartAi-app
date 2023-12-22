@@ -27,8 +27,8 @@ ion-button {
   --border-style: solid;
   --border-width: 1px;
   --box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.25);
-  --font-family: 'Poppins', sans-serif; /* Use the correct font-family name */
-  --font-weight: 500; /* Adjust the font weight as needed */
+  --font-family: 'Poppins', sans-serif;
+  --font-weight: 500;
   --padding-top: 10px;
   --padding-bottom: 10px;
   width: 80%;

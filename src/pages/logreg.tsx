@@ -7,13 +7,13 @@ const LogReg: React.FC = () => {
   const history = useHistory();
 
   const handleLoginClick = () => {
-    console.log('Login button clicked');
+    //console.log('Login button clicked');
     // Navigate to the login page
     history.push('/login');
   };
 
   const handleRegisterClick = () => {
-    console.log('Register button clicked');
+    //console.log('Register button clicked');
     // Navigate to the register page
     history.push('/register');
   };

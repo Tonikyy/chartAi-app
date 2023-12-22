@@ -1,17 +1,18 @@
-module.exports = {
+export default {
   root: true,
   env: {
     node: true
   },
   'extends': [
-    'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended',
     'eslint:recommended'
   ],
   parserOptions: {
-    ecmaVersion: 2020
+    ecmaVersion: 2021
   },
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-unused-vars': 'warn'
   }
 }
