@@ -2,13 +2,13 @@
 import React, { useState } from 'react';
 import { IonInput, IonButton, IonBackButton, IonImg } from '@ionic/react';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
-import './styles/login.css';
+import './styles/pageStyles.css';
 
 /**
  * React functional component that handles user login functionality.
  * @returns JSX.Element
  */
-const Login: React.FC = () => {
+function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -43,7 +43,7 @@ const Login: React.FC = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Login;
 

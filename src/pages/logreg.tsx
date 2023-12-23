@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/logreg.css';
+import './styles/pageStyles.css';
 import { useHistory } from 'react-router-dom';
 import { IonBackButton, IonButton } from '@ionic/react';
 

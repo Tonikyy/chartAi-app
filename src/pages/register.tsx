@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { IonInput, IonButton, IonBackButton } from '@ionic/react';
 import { getAuth, createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage'; // Adjusted import for Firebase Storage
-import './styles/register.css';
+import './styles/pageStyles.css';
 
   const Register: React.FC = () => {
 
