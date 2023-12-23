@@ -1,7 +1,7 @@
 /* Font */
 @font-face {
   font-family: 'Poppins';
-  src: url('./src/fonts/Poppins-Regular.woff') format('woff'); /* Update the path */
+  src: url('./src/fonts/Poppins-Regular.ttf') format('ttf'); /* Update the path */
   font-weight: normal;
   font-style: normal;
 }
@@ -102,15 +102,6 @@ ion-back-button {
   text-shadow: 1px 1px 6px rgba(0,0,0,0.50);
 }
 
-/* Font */
-@font-face {
-  font-family: 'Poppins';
-  src: url('./src/fonts/Poppins-Regular.woff') format('woff'); /* Update the path */
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 /* Classes */
 .takaisin {
   margin-left: -70%;
@@ -173,14 +164,6 @@ ion-back-button {
   padding-top: 15px;
   text-shadow: 1px 1px 6px rgba(0,0,0,0.50);
   color: #000000;
-}
-
-/* Font */
-@font-face {
-  font-family: 'Poppins';
-  src: url('./src/fonts/Poppins-Regular.woff') format('woff'); /* Update the path */
-  font-weight: normal;
-  font-style: normal;
 }
 
 #logRegKuva {
