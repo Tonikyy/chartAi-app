@@ -10,6 +10,7 @@ import register from './pages/register';
 // Import Firebase and Firebase configuration
 import { initializeApp } from 'firebase/app';
 import firebaseConfig from './firebaseConfig';
+import MapApp from './pages/mapApp';
 
 
 // ...
@@ -27,6 +28,7 @@ const App: React.FC = () => (
         <Route path="/logreg" component={LogReg} exact />
         <Route path="/login" component={login} />
         <Route path="/register" component={register} />
+        <Route path="/mapApp" component={MapApp} />
         {/* Add other routes here */}
         <Redirect exact from="/" to="/splash" />
       </IonRouterOutlet>

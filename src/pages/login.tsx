@@ -1,7 +1,8 @@
-// LoginPage.tsx
+// Import the necessary dependencies
 import React, { useState } from 'react';
-import { IonInput, IonButton, IonBackButton, IonImg } from '@ionic/react';
+import { IonInput, IonButton, IonBackButton } from '@ionic/react';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+import { useHistory } from 'react-router-dom';
 import './styles/pageStyles.css';
 
 /**
@@ -11,6 +12,7 @@ import './styles/pageStyles.css';
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const history = useHistory();
 
   /**
    * Handles the login process when the user clicks the login button.
@@ -23,7 +25,9 @@ function Login() {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
       console.log('Logged in user:', user);
-      // Redirect or perform any action upon successful login
+
+      // Redirect to /mapApp upon successful login
+      history.push('/mapApp');
     } catch (err: any) {
       console.error('Login failed:', err.message);
       // Handle login failure (e.g., display error message)
@@ -35,8 +39,7 @@ function Login() {
       <div className='sisalto'>
         <IonBackButton className='takaisin' defaultHref="/logreg" />
         <div className="loginTxt">Login</div>
-        <img className="loginKuva" src="./src/images/logKuva.png" />
-
+        <img className="loginKuva" src="./src/images/logKuva.png" alt="Login" />
         <IonInput className='input' type="email" placeholder="  Email" value={email} onIonChange={(e) => setEmail(e.detail.value!)} />
         <IonInput className='input' type="password" placeholder="  Password" value={password} onIonChange={(e) => setPassword(e.detail.value!)} />
         <IonButton id='logiNappi' onClick={handleLogin}>Login</IonButton>
@@ -46,5 +49,6 @@ function Login() {
 }
 
 export default Login;
+
 
 
