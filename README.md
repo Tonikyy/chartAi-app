@@ -4,11 +4,12 @@
 
 chartAi-app is a personal project designed to assist users in discovering suitable fishing spots through AI. It aims to collect weather and other relevant data to identify potential areas on depth charts.
 
-## Technologies Used
+## Technologies and APIs Used
 
 - Ionic framework
 - React
 - Firebase
+- maptiler SDK & API
 - [Other technologies used]
 
 ## UI progress so far
