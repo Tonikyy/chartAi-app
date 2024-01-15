@@ -21,6 +21,12 @@ chartAi-app is a personal project designed to assist users in discovering suitab
 
 ![image](https://github.com/Tonikyy/chartAi-app/assets/72816084/db0d7c9c-c8f6-4b0d-8890-7ae64a42d357)
 
+![image](https://github.com/Tonikyy/chartAi-app/assets/72816084/ef07b6bf-9799-411b-9dc3-138ee8af6084)
+
+![image](https://github.com/Tonikyy/chartAi-app/assets/72816084/5e07730f-4cde-4d5e-b7f4-22f93da45680)
+
+
+
 
 ## License
 
