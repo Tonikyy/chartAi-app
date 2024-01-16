@@ -36,7 +36,7 @@ const MapApp: React.FC = () => {
 
             <div className="map-content" id="main-content">
                 {/* Map content */}
-                <iframe width="100%" height="100%" src="https://api.maptiler.com/maps/394fd10c-93bd-4b27-8612-5c831de27ff4/?key=2zkfkuwjjwxntEBENk9b#1.0/0.00000/0.00000"></iframe>
+                <iframe width="100%" height="100%" src="https://api.maptiler.com/maps/367841e2-b0d0-43f4-a6d7-ed66c7a0b218/?key=2zkfkuwjjwxntEBENk9b#1.0/0.00000/0.00000"></iframe>
             </div>
         </div>
     );
