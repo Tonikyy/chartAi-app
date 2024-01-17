@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { IonButtons, IonMenu, IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonLabel, IonMenuButton, IonImg, IonMenuToggle } from '@ionic/react';
-import './styles/pageStyles.css';
+import '/src/pages/styles/pageStyles.css';
 
 const MapApp: React.FC = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -11,7 +11,7 @@ const MapApp: React.FC = () => {
 
     return (
         <div className="map-container">
-            <IonButtons slot="start" id='menuBtn'>
+            <IonButtons slot='start' id='menuBtn'>
                 <IonMenuButton onClick={toggleMenu} class='mapMenuButton'></IonMenuButton>
                 <IonTitle id='titleMenu' >ChartAiApp</IonTitle>
             </IonButtons>

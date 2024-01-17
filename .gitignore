@@ -32,3 +32,5 @@ yarn-error.log*
 
 firebaseConfig.js
 firebaseConfig1.js
+
+.fake

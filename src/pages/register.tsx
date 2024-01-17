@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { IonInput, IonButton, IonBackButton } from '@ionic/react';
 import { getAuth, createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage'; // Adjusted import for Firebase Storage
-import './styles/pageStyles.css';
+import '/src/pages/styles/pageStyles.css';
 
   const Register: React.FC = () => {
 
@@ -51,7 +51,7 @@ import './styles/pageStyles.css';
       <div className='sisalto'>
         <IonBackButton className='takaisin' defaultHref="/logreg" />
         <div className="registerTxt">Register</div>
-        <img className="registerKuva" src="./src/images/register.png" />
+        <img className="registerKuva" src="/src/images/register.png" />
         
         <IonInput className='input' type="email" placeholder="Email" value={email} onIonChange={(e) => setEmail(e.detail.value!)}/>
         <IonInput className='input' type="password" placeholder="Password" value={password} onIonChange={(e) => setPassword(e.detail.value!)}/>

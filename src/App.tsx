@@ -25,7 +25,7 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonRouterOutlet>
         <Route path="/splash" component={SplashScreen} exact />
-        <Route path="/logreg" component={LogReg} exact />
+        <Route path="/logreg" component={LogReg} />
         <Route path="/login" component={login} />
         <Route path="/register" component={register} />
         <Route path="/mapApp" component={MapApp} />
