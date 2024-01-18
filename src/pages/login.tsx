@@ -39,7 +39,7 @@ function Login() {
       <div className='sisalto'>
         <IonBackButton className='takaisin' defaultHref="/logreg" />
         <div className="loginTxt">Login</div>
-        <img className="loginKuva" src="/src/images/logKuva.png" alt="Login" />
+        <img className="loginKuva" src="assets/img/logKuva.png" alt="Login" />
         <IonInput className='input' type="email" placeholder="  Email" value={email} onIonChange={(e) => setEmail(e.detail.value!)} />
         <IonInput className='input' type="password" placeholder="  Password" value={password} onIonChange={(e) => setPassword(e.detail.value!)} />
         <IonButton id='logiNappi' onClick={handleLogin}>Login</IonButton>

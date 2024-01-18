@@ -21,7 +21,7 @@ const LogReg: React.FC = () => {
   return (
     <div className="tausta">
         <IonBackButton className='takaisin' defaultHref="/splash" />
-        <img id="logRegKuva" src="/src/images/logreg.png" />
+        <img id="logRegKuva" src="assets/img/logreg.png" />
         <h3 id='logRegTxt'>Register to start your journey towards new spots or Login to continue killing it!</h3>
         <IonButton id="logregbtn1" onClick={handleLoginClick}>
           <b> Login </b>

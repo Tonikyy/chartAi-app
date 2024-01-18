@@ -19,7 +19,7 @@ const SplashScreen: React.FC = () => {
       <div className="tausta">
         {/* ... */}
         <h1 id='splashTxtFirst'>Welcome aboard!</h1>
-        <img id="splashKuva" src="./src/images/splash.png" />
+        <img id="splashKuva" src='assets/img/splash.png'/>
         <h3 id='splashTxtSecond'>Navigate the waters like a pro with our spot revealing AI </h3>
         <IonButton id='splashNappi' onClick={() => handleButtonClick()}>
           <b>Get started</b>
